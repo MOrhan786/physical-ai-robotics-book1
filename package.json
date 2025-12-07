@@ -1,0 +1,14 @@
+{
+  "name": "hackathon-book",
+  "version": "1.0.0",
+  "description": "ROS2 Robotics Hackathon Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo Starting hackathon-book project"
+  },
+  "keywords": ["ros2", "robotics"],
+  "author": "",
+  "license": "MIT"
+}
+
+
