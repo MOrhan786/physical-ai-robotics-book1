@@ -1,0 +1,55 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .node { fill: #e1f5fe; stroke: #0277bd; stroke-width: 2px; rx: 10; ry: 10; }
+    .text { font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+    .arrow { stroke: #000; stroke-width: 2; marker-end: url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7"
+      refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#000" />
+    </marker>
+  </defs>
+
+  <!-- Voice Command -->
+  <rect x="50" y="50" width="120" height="60" class="node"/>
+  <text x="110" y="80" class="text">Voice Command</text>
+  <text x="110" y="100" class="text">"Clean the room"</text>
+
+  <!-- Whisper ASR -->
+  <rect x="220" y="50" width="120" height="60" class="node"/>
+  <text x="280" y="80" class="text">Whisper ASR</text>
+  <text x="280" y="100" class="text">Speech-to-Text</text>
+
+  <!-- LLM Planner -->
+  <rect x="390" y="50" width="120" height="60" class="node"/>
+  <text x="450" y="80" class="text">LLM Planner</text>
+  <text x="450" y="100" class="text">Task Planning</text>
+
+  <!-- ROS 2 Action -->
+  <rect x="560" y="50" width="120" height="60" class="node"/>
+  <text x="620" y="80" class="text">ROS 2 Action</text>
+  <text x="620" y="100" class="text">Execution</text>
+
+  <!-- Physical Robot -->
+  <rect x="730" y="50" width="120" height="60" class="node"/>
+  <text x="790" y="80" class="text">Physical</text>
+  <text x="790" y="100" class="text">Robot</text>
+
+  <!-- Arrows between main components -->
+  <line x1="170" y1="80" x2="220" y2="80" class="arrow"/>
+  <line x1="340" y1="80" x2="390" y2="80" class="arrow"/>
+  <line x1="510" y1="80" x2="560" y2="80" class="arrow"/>
+  <line x1="680" y1="80" x2="730" y2="80" class="arrow"/>
+
+  <!-- Perception System -->
+  <rect x="560" y="150" width="120" height="60" class="node"/>
+  <text x="620" y="180" class="text">Perception</text>
+  <text x="620" y="200" class="text">System</text>
+
+  <!-- Feedback arrow -->
+  <line x1="680" y1="180" x2="730" y2="110" class="arrow"/>
+
+  <text x="400" y="20" class="text" font-size="18">Vision-Language-Action Pipeline</text>
+</svg>

@@ -45,6 +45,16 @@ const sidebars: SidebarsConfig = {
         'digital-twin-sim/lesson4-sensor-simulation'
       ],
     },
+    {
+      type: 'category',
+      label: 'Module 4: Vision-Language-Action',
+      items: [
+        'vision-language-action/intro',
+        'vision-language-action/voice-to-action',
+        'vision-language-action/llm-planning',
+        'vision-language-action/capstone-project'
+      ],
+    },
   ],
 
   // But you can create a sidebar manually
