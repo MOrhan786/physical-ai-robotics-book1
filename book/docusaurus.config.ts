@@ -41,6 +41,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          path: 'docs/docs',
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -103,7 +105,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/ros2-robotics-module/lesson1-nodes',
             },
           ],
         },

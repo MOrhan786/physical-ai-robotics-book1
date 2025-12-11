@@ -1,4 +1,8 @@
 {
-  "label": "Module 1 — ROS 2 Basics",
-  "position": 1
+  "label": "Module 1: ROS 2 Robotics Module",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn about ROS 2 fundamentals: Nodes, Topics, Services, Actions, and Launch files for robotics development."
+  }
 }

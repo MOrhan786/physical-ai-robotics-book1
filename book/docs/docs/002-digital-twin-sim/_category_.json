@@ -1,0 +1,8 @@
+{
+  "label": "Module 2: Digital Twin Simulation",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn about Gazebo physics simulation, Unity rendering, and sensor simulation for humanoid robotics."
+  }
+}
